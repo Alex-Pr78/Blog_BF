@@ -1,0 +1,9 @@
+export const selectUserRole = ({ user }) => user?.roleId;
+export const selectUserLogin = ({ user }) => user?.login;
+export const selectUserSession = ({ user }) => user?.session;
+export const selectPost = ({ post }) => post;
+export const selectUserId = ({ user }) => user.id;
+export const selectModalTitle = ({ app }) => app.modal.title;
+export const selectModalonConfirm = ({ app }) => app.modal.onConfirm;
+export const selectModalonCancel = ({ app }) => app.modal.onCancel;
+export const selectModalIsOpen = ({ app }) => app.modal.isOpen;
