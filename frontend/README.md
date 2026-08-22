@@ -28,3 +28,5 @@
 - posts: массив post: (id, title, commentsCount, publishedAt, imageUrl)
 - post: (id, title, content, publishedAt, imageUrl, comments: массив: coment(id, author, content, publishedAt))
 - users: массив: user(id, login, registeredAt, role)
+
+- docker-compose up -d Запуск приложения
